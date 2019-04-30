@@ -17,7 +17,7 @@
 cd docker-wordpress
 sudo chown -R www-data:www-data ./data/wp_data/wp-content
 ~~~
-![](https://ws1.sinaimg.cn/large/006tNc79ly1g2kmjygnc0j30iz04fglq.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79ly1g2kmny2qhuj30iz04fwf7.jpg)
 
 ## preview
 - http://localhost:9001/
