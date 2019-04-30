@@ -3,7 +3,7 @@
 
 ## get-started
 ```shell
-# common manngeent
+# common system panel
 ./bin/start.sh
 ./bin/stop.sh
 ./bin/restart.sh
