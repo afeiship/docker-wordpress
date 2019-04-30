@@ -3,7 +3,7 @@
 
 ## get-started
 ```shell
-# common system panel
+## common system panel
 ./bin/start.sh
 ./bin/stop.sh
 ./bin/restart.sh
@@ -13,10 +13,12 @@
 ```
 
 ## setting
-~~~
+```shell
+## php5-fpm默认属于www-data用户组，但是其权限很低，比如不能创建文件夹，所以需要对其授权
+## sudo chown -R www-data:www-data
 cd docker-wordpress
 sudo chown -R www-data:www-data ./data/wp_data/wp-content
-~~~
+````
 ![](https://ws4.sinaimg.cn/large/006tNc79ly1g2kmny2qhuj30iz04fwf7.jpg)
 
 ## preview
