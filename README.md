@@ -24,3 +24,4 @@ sudo chown -R www-data:www-data ./data/wp_data/wp-content
 
 ## resources
 - https://qiita.com/vc7/items/e88026c75f2280f95ed4
+- https://github.com/docker-library/wordpress/issues/298
