@@ -12,6 +12,12 @@
 ./bin/reset.sh
 ```
 
+## setting
+~~~
+cd docker-wordpress
+sudo chown -R www-data:www-data ./data/wp_data/wp-content
+~~~
+
 ## preview
 - http://localhost:9001/
 
