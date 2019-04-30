@@ -1,13 +1,7 @@
 # docker-wordpress
 > Docker for wordpress.
 
-## installation
-- https://qiita.com/vc7/items/e88026c75f2280f95ed4
-
-## preview
-- http://localhost:9001/
-
-## syspanel
+## get-started
 ```shell
 # common manngeent
 ./bin/start.sh
@@ -17,3 +11,9 @@
 ## be careful!!!
 ./bin/reset.sh
 ```
+
+## preview
+- http://localhost:9001/
+
+## resources
+- https://qiita.com/vc7/items/e88026c75f2280f95ed4
