@@ -1,0 +1,26 @@
+{
+  "name": "docker-wordpress",
+  "version": "1.0.0",
+  "description": "Docker for wordpress.",
+  "scripts": {
+    "clean": "rm -rf data",
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "restart": "docker-compose down && docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/docker-wordpress.git"
+  },
+  "author": "afeiship",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/docker-wordpress/issues"
+  },
+  "homepage": "https://github.com/afeiship/docker-wordpress#readme",
+  "keywords": [
+    "docker",
+    "wordpress",
+    "mysql"
+  ]
+}

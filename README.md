@@ -1,17 +1,6 @@
 # docker-wordpress
 > Docker for wordpress.
 
-## get-started
-```shell
-## common system panel
-./bin/start.sh
-./bin/stop.sh
-./bin/restart.sh
-
-## be careful!!!
-./bin/reset.sh
-```
-
 ## setting
 ```shell
 ## php5-fpm默认属于www-data用户组，但是其权限很低，比如不能创建文件夹，所以需要对其授权
